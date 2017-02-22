@@ -132,7 +132,6 @@ def run_quiz(card, item):
             input=raw_input( "Please try again, or enter 'b' to go back to the facts.")
             if input.lower() == 'b':
                 card["viewed"]=[False, False, False]
-                display_questions_on_card(card, item)
                 return False
             else:
               pass
